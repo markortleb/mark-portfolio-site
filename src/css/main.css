@@ -1,0 +1,47 @@
+/* Keyframe to define the spinning animation */
+@keyframes spin {
+      0% {
+            transform: rotate(0deg);
+      }
+      100% {
+            transform: rotate(360deg);
+  }
+}
+
+html, body{
+    height: 100%;
+    background: mediumpurple;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    font-family: Calibri, serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    padding: 4em;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+
+/* Apply the spin animation to the image */
+img {
+    width: 10em; /* Adjust size as needed */
+    height: auto;
+    animation: spin 9s linear infinite; /* 2 seconds for one full rotation */
+    padding: 2em;
+}
