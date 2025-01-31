@@ -13,18 +13,26 @@
 
 
     <header>
-        <img src="img/mark_1.jpeg" alt="">
+        <div class="header-container">
+            <div class="name-area">
+                <h1>Mark Ortleb</h1>
 
+                <div class="my-links">
+                    <a class="social-link" href="https://www.linkedin.com/in/mark-o-03b5a813b/">
+                        <img src="img/brand_icons/linkedin_logo.png" alt="">
+                    </a>
 
-        <a href="https://www.linkedin.com/in/mark-o-03b5a813b/">
-            <img src="img/brand_icons/linkedin_logo.png" alt="">
-        </a>
-        <h1>Mark Ortleb</h1>
+                    <a class="social-link" href="https://github.com/markortleb">
+                        <img src="img/brand_icons/github_logo_white.png" alt="">
+                    </a>
 
-        <a href="https://github.com/markortleb">
-            <img src="img/brand_icons/github_logo_white.png" alt="">
-        </a>
+                    <button>Download Resume</button>
+                </div>
 
+            </div>
+
+            <img class="main-profile-pic" src="img/mark_1.jpeg" alt="">
+        </div>
 <!--        <ol class="subtitle-list">-->
 <!--            <li>Senior Data Engineer</li>-->
 <!--            <li>dbt Fanatic</li>-->
@@ -32,80 +40,157 @@
 <!--            <li>Based in Tampa, FL</li>-->
 <!--        </ol>-->
 
-        <button>Download Resume</button>
-
     </header>
 
     <main>
-        <article>
+        <article class="about-me">
             <h2>About Me</h2>
+            <p>
+                Welcome to my website!
+                I’m a data engineer who thrives on building robust data pipelines and solving complex data challenges.
+                I also love learning new technologies and skills, always pushing myself to grow.
+            </p>
         </article>
 
-        <article>
+        <article class="projects">
             <h2>Projects</h2>
+
+            <p class="about-projects">
+                Here are some of the projects I have built in my efforts to learn web development.
+                Disclaimer: Some of these have a lot of bugs.
+            </p>
 
             <ul>
                 <li>
-                    <a href="https://etch-a-sketch.markortleb.com">Etch-A-Sketch</a>
+                    <span class="project-name">CV Maker</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/cv_maker_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://cv-maker.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/etch-a-sketch">View Code</a>
+                            <a href="https://github.com/markortleb/cv-maker">View Code</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="project-name">Battleship</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/battleship_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://battleship.markortleb.com">Visit Site</a>
+
+                            <a href="https://github.com/markortleb/battleship">View Code</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://weather.markortleb.com">Weather App</a>
+                    <span class="project-name">Todo App</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/todo_app_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://todo-app.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/basic-weather-app">View Code</a>
+                            <a href="https://github.com/markortleb/todo-app">View Code</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://tic-tac-toe.markortleb.com">Tic Tac Toe</a>
+                    <span class="project-name">Tic Tac Toe</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/tic_tac_toe_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://tic-tac-toe.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/tic-tac-toe">View Code</a>
+                            <a href="https://github.com/markortleb/tic-tac-toe">View Code</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://tennis.markortleb.com">Tennis</a>
+                    <span class="project-name">Calculator</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/calculator_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://calculator.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/tennis-game">View Code</a>
+                            <a href="https://github.com/markortleb/simple-web-calculator">View Code</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://calculator.markortleb.com">Calculator</a>
+                    <span class="project-name">Mark's Pizza Cafe</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/pizza_cafe_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://pizza-cafe.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/simple-web-calculator">View Code</a>
+                            <a href="https://github.com/markortleb/marks-pizza-cafe">View Code</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://pizza-cafe.markortleb.com">Mark's Pizza Cafe</a>
+                    <span class="project-name">Tennis</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/tennis_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://tennis.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/marks-pizza-cafe">View Code</a>
+                            <a href="https://github.com/markortleb/tennis-game">View Code</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://library-app.markortleb.com">Library App</a>
+                    <span class="project-name">Library App</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/library_app_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://library-app.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/library-web-app">View Code</a>
+                            <a href="https://github.com/markortleb/library-web-app">View Code</a>
+                        </div>
+                    </div>
+
                 </li>
                 <li>
-                    <a href="https://battleship.markortleb.com">Battleship</a>
+                    <span class="project-name">Memory Game</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/memory_game_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://memory-game.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/battleship">View Code</a>
+                            <a href="https://github.com/markortleb/memory-game">View Code</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://todo-app.markortleb.com">Todo App</a>
+                    <span class="project-name">Etch-A-Sketch</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/etch_a_sketch_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://etch-a-sketch.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/todo-app">View Code</a>
+                            <a href="https://github.com/markortleb/etch-a-sketch">View Code</a>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="https://memory-game.markortleb.com">Memory Game</a>
+                    <span class="project-name">Weather App</span>
+                    <div class="project-lower-details">
+                        <img src="img/demos/weather_app_demo.gif" alt="">
+                        <div class="project-links">
+                            <a href="https://weather.markortleb.com">Visit Site</a>
 
-                    <a href="https://github.com/markortleb/memory-game">View Code</a>
-                </li>
-                <li>
-                    <a href="https://cv-maker.markortleb.com">CV Maker</a>
-
-                    <a href="https://github.com/markortleb/cv-maker">View Code</a>
+                            <a href="https://github.com/markortleb/basic-weather-app">View Code</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
+
         </article>
     </main>
 
     <footer>
-        <p>&copy; Mark Ortleb</p>
+        <span>&copy; Mark Ortleb</span>
     </footer>
 
 
