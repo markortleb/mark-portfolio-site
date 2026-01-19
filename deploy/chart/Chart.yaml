@@ -1,0 +1,4 @@
+apiVersion: v2
+name: mark-ortleb-website
+description: A Helm chart for deploying the Mark Ortleb website.
+version: 0.1.0
