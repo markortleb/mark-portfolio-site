@@ -1,18 +1,11 @@
-image:
-  registry: ""
-  repository: ""
-  tag: latest
-  secret: ""
-
 service:
   type: ClusterIP
   port: 80
 
-ingress:
-  enabled: false
-  className: ""
-  host: ""
-  tls:
-    enabled: false
-    secretName: ""
-    clusterIssuer: ""
+secrets:
+  dockerRegistry: docker-registry-secret
+
+image:
+  registry: registry.gitlab.com
+  repository: mark4501703/mark-portfolio-site
+  tag: latest

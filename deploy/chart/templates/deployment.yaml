@@ -13,10 +13,10 @@ spec:
         app: {{ .Release.Name }}
     spec:
       imagePullSecrets:
-        - name: {{ .Values.image.secret }}
+        - name: {{ required "secrets.dockerRegistry is required" .Values.secrets.dockerRegistry }}
       containers:
         - name: web-app
-          image: {{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
+          image: {{ required "image.registry is required" .Values.image.registry }}/{{ required "image.repository is required" .Values.image.repository }}:{{ required "image.tag is required" .Values.image.tag }}
           imagePullPolicy: Always
           ports:
             - containerPort: 80
